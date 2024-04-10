@@ -30,18 +30,14 @@ button:focus {
 
 .container {
   display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(3, 1fr);
-grid-column-gap: 15px;
-grid-row-gap: 15px;
-  max-width: 1170px;
-  padding: 20px;
-  margin: 0 auto;
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
+  max-width: 1170px;
+  padding: 20px;
+  margin: 0 auto;
+  display: grid;
 }
 
 .bento {
