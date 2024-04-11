@@ -32,8 +32,7 @@ button:focus {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
+  gap: 1rem;
   max-width: 1170px;
   padding: 20px;
   margin: 0 auto;
@@ -249,14 +248,12 @@ button:focus {
 }
 
 
-
-
 /* Petit mobile */
 @media screen and (min-width: 300px) and (max-width: 560px) {
   .container {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1rem;
   }
 }
 
@@ -265,7 +262,7 @@ button:focus {
 
   .container {
     grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
 
 .nicole__grand-mobile { grid-area: 1 / 1 / 2 / 3; }
