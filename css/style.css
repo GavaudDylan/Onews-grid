@@ -258,3 +258,10 @@ button:focus {
 
 /* Grand mobile */
 @media screen and (min-width: 561px) and (max-width: 940px) {
+ 
+}
+
+
+/* Tablette / Laptop */
+@media screen and (min-width: 941px) and (max-width: 1170px) {
+}
